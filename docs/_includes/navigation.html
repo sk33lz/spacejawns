@@ -22,7 +22,7 @@
 	                  		{% else %}
 	                  			{% assign domain = site.url %}
 	                		{% endif %}
-	                		<li><a href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.link }}"{% if dropdown_link.link contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.name | escape }}</a></li>
+	                		<li><a href="{{ domain }}/{{ site.baseurl }}{{ dropdown_link.link }}"{% if dropdown_link.link contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.name | escape }}</a></li>
 	              		{% endfor %}
 	            	</ul>
 	        	</li>
