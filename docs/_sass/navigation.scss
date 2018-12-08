@@ -53,6 +53,15 @@
 		a {
 			display: inline;
 		}
+
+		li.has-dropdown:hover>a{
+			background: none;
+		}
+
+		ul.top-navigation li:hover > ul.dropdown,
+		ul.top-navigation li ul.dropdown:hover {
+			background: none;
+		}
 	}
 }
 
