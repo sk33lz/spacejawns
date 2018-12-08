@@ -11,7 +11,7 @@
 				{% assign class = class | append: " active" %}
 		  	{% endif %}
 		  	{% if link.dropdown == nil %}
-		  		<li{% if link.link == page.url %} class="active"{% elsif page.homepage == true and link.link == '/' %} class="active"{% elsif link.highlight == true %} class="highlight"{% endif %}><a href="{% include relative-src.html src=link.link %}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+		  		<li{% if link.link == page.url %} class="active"{% elsif page.homepage == true and link.link == '/' %} class="active"{% elsif link.highlight == true %} class="highlight"{% endif %}><a href="{{ domain }}/{{ site.baseurl }}{{ link.link }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
 		    	</li>
 	      	{% else %}
 	        	<li class="has-dropdown{% if link.link == page.url %} active{% endif %}"><a href="{{ domain }}{{ site.baseurl }}{{ link.link }}"{% if link.link contains 'http' %} target="_blank"{% endif %}>{{ link.name | escape }}</a>
