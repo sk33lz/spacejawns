@@ -5,6 +5,7 @@
 	position: relative;
 	ul {
 		margin-top: 5em;
+		background: #fd0000;
 	}
 	li {
 		display: block;
@@ -32,6 +33,7 @@
 		padding: 0;
 		position: inherit;
 		width: 100%;
+		background: none;
 	}
 
 	ul.top-navigation li ul.dropdown a {
@@ -40,6 +42,10 @@
 
 	li.has-dropdown>a:after {
 		border: none;
+	}
+
+	li.has-dropdown:hover>a{
+		background: none;
 	}
 
 	li.has-dropdown>a:hover {
