@@ -1,18 +1,16 @@
 .nav-open nav {
 	border-bottom: 1px dotted rgba(253, 0, 0, .7);
 	padding: 10px 0;
+	z-index: 9999;
 	li {
 		display: block;
 		float: none;
 	}
 	a {
 		display: block;
-		border-bottom: 1px solid #fd0000;
 	}
 
 	a:hover {
-
-		border-bottom: 1px solid #fd0000;
 		color: #fff;
 	}
 
@@ -54,16 +52,6 @@
 			display: inline;
 		}
 
-		li.has-dropdown:hover>a{
-			background: none;
-		}
-
-		ul.top-navigation li:hover > ul.dropdown,
-		ul.top-navigation li ul.dropdown:hover {
-			background: none;
-		}
-
-		border-bottom: none;
 	}
 }
 
