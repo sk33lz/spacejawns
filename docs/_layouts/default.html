@@ -8,8 +8,8 @@
 		{% seo %}
 		{% feed_meta %}
 
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-		<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/{{ site.favicon }}">
+		<link rel="stylesheet" href="{{ site.url }}/css/screen.css">
+		<link rel="icon" type="image/x-icon" href="{{ site.url }}/{{ site.favicon }}">
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
@@ -21,15 +21,15 @@
 		{% endif %}
 		<link rel="canonical" href="{{ url }}{{ page.url }}">
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-		<script src="/js/javascript.js"></script>
-		<script src="/js/modernizr.min.js"></script>
+		<script src="{{ site.url }}/js/javascript.js"></script>
+		<script src="{{ site.url }}/js/modernizr.min.js"></script>
 	</head>
 	<body>
 		<header>
 			<div class="container">
 				{% if page.homepage == null or page.homepage == false %}
 					<div class="company-name">
-						<a href="{{ site.baseurl }}/"><img class="logo" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="Space Jawns Logo" width="100%" height="64" />{% if page.site_name == false %}{% else %}<strong>Space Jawns</strong>{% endif %}</a>
+						<a href="{{ site.url }}/"><img class="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="Space Jawns Logo" width="100%" height="64" />{% if page.site_name == false %}{% else %}<strong>Space Jawns</strong>{% endif %}</a>
 					</div>
 				{% endif %}
 				{% include navigation.html %}
