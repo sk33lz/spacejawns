@@ -1,0 +1,31 @@
+- name: Game
+  link: /game/
+  new_window: false
+  highlight: false
+  dropdown:
+    - name: "How to Play"
+      link: "/game/how-to-play"
+- name: Downloads
+  link: /downloads/
+  new_window: false
+  highlight: false
+- name: Top 100
+  link: /top-100/
+  new_window: false
+  highlight: false
+- name: News
+  link: /news/
+  new_window: false
+  highlight: false
+- name: FAQ
+  link: /faq/
+  new_window: false
+  highlight: false
+- name: Wiki
+  link: /wiki/
+  new_window: false
+  highlight: false
+- name: Support
+  link: /support/
+  new_window: false
+  highlight: true

@@ -1,0 +1,12 @@
+$brand-color: #fd0000;
+$hero-color: #000000;
+$secondary-brand-color: #fd0000;
+$secondary-header-color: #000000;
+$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+$hero-gradient-color: mix($hero-color, $secondary-brand-color, 95%);
+$brand-font: 'silkscreenbold', Fallback, sans-serif;
+
+// Breakpoints
+$tablet: "(min-width: 450px)";
+$mid-point: "(min-width: 620px)";
+$desktop: "(min-width: 768px)";

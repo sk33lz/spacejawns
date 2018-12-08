@@ -1,0 +1,7 @@
+---
+title: Contact Success
+permalink: /contact-success/
+---
+
+<h2>Success</h2>
+<p class="subtext">Your message is sent. We'll be in touch soon.</p>
