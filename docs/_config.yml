@@ -2,10 +2,10 @@
 # Site
 
 title: Space Jawns
-url: "https://spacejawns.com"
+url: "https://sk33lz.github.io/spacejawns/"
 baseurl: # leave blank for /
-imageurl: http://localhost:4000/images/
-thumb_url: http://localhost:4000/images/thumbnails/
+imageurl: https://sk33lz.github.io/spacejawns/images/
+thumb_url: https://sk33lz.github.io/spacejawns/images/thumbnails/
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
