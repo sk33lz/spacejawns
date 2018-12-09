@@ -1,11 +1,10 @@
 .nav-open nav {
-	border-bottom: 1px dotted rgba(253, 0, 0, .7);
 	padding: 10px 0;
 	z-index: 9999;
 	position: relative;
 	ul {
 		margin-top: 5em;
-		background: #fd0000;
+		background: #000000;
 	}
 	li {
 		display: block;
@@ -14,8 +13,12 @@
 	a {
 		display: block;
 	}
+	a.nav-toggle {
+		padding: 0;
+	}
 	a:hover {
 		color: #fff;
+		background: #fd0000;
 	}
 	ul.top-navigation li ul.dropdown li:last-child a {
 		border-bottom: none;
