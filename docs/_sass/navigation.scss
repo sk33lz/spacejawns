@@ -10,6 +10,9 @@
 		display: block;
 		float: none;
 	}
+	li.active {
+		border-bottom: none;
+	}
 	a {
 		display: block;
 		
