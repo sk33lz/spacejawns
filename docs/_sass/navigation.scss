@@ -76,10 +76,10 @@
 
 		a {
 			display: inline;
+		}
 
-			&.nav-toggle {
-				right: -.15em;
-			}
+		nav a.nav-toggle {
+			right: -.15em;
 		}
 
 	}
