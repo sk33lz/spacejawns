@@ -88,9 +88,8 @@ nav {
 
 	@media #{$mid-point} {
 		text-align: left;
-		position: absolute;
-		top: 2.2em;
-		right: 0;
+		position: relative;
+		margin-top: 2.2em;
 		padding: 0 2em;
 	}
 
