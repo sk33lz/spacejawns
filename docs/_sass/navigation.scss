@@ -12,6 +12,10 @@
 	}
 	a {
 		display: block;
+		
+		.nav-toggle {
+			right: .5em;
+		}
 	}
 	a:hover {
 		color: #fff;
@@ -157,7 +161,8 @@ nav {
 		&.nav-toggle {
 			display: inline;
 			position: absolute;
-			top: -.5em;
+			top: 1em;
+			right: 1em;
 			font-size: 1.9em;
 			border: 0;
 
