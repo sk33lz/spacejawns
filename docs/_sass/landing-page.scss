@@ -63,4 +63,7 @@
 	.content section:nth-child(even) .flex {
 		flex-direction: row-reverse;
 	}
+	.hero {
+		background: linear-gradient(to bottom, $hero-gradient-color 33%, $secondary-brand-color 100%) no-repeat #a05fb7;
+	}
 }
