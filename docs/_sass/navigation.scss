@@ -18,7 +18,7 @@
 		display: block;
 		
 		&.nav-toggle {
-			right: .35em;
+			right: -.15em;
 			padding: 0;
 		}
 		&.nav-toggle:hover {
@@ -176,7 +176,7 @@ nav {
 			display: inline;
 			position: absolute;
 			top: 1.1em;
-			right: 1em;
+			right: .5em;
 			font-size: 1.9em;
 			border: 0;
 			padding: 0;
