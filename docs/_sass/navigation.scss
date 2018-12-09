@@ -9,6 +9,7 @@
 	li {
 		display: block;
 		float: none;
+		margin-right: 0;
 	}
 	li.active {
 		border-bottom: none;
@@ -57,7 +58,7 @@
 	}
 
 	li.has-dropdown:hover>a{
-		background: none;
+		
 	}
 
 	li.has-dropdown>a:hover {
