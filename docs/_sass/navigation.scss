@@ -85,13 +85,13 @@ nav {
 	text-transform: uppercase;
 	font-size: 1em;
 	z-index: 9999;
-	position: relative;
 
 	@media #{$mid-point} {
 		text-align: left;
-		position: relative;
+		position: absolute;
+		margin-top: 2.2em;
+		right: 0;
 		padding: 0 2em;
-		padding-top: 2.2em;
 	}
 
     ul {
