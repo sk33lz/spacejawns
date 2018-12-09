@@ -186,5 +186,6 @@ blockquote:before {
 }
 
 .nav-open .company-name {
-	z-index:10000;
+	z-index: 10000;
+	position: relative;
 }
