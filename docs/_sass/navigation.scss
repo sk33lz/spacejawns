@@ -160,7 +160,7 @@ nav {
     margin-top: 2.2em;
     right: 0;
     left: auto;
-    padding: 0 2em;
+    padding: 0;
     overflow: visible;
 
     .menu-close {
@@ -224,7 +224,7 @@ nav {
       }
 
       &.has-dropdown>a {
-        padding-right: 2em;
+        padding-right: 1.5em;
       }
 
       &.has-dropdown:hover>a{
@@ -281,7 +281,7 @@ nav {
 
     a {
       display: block;
-      padding: .75em 15px;
+      padding: .75em 10px;
       line-height: 1em;
       font-size: 1em;
       color: #fff;
