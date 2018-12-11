@@ -161,6 +161,7 @@ nav {
     right: 0;
     left: auto;
     padding: 0 2em;
+    overflow: visible;
 
     .menu-close {
       display: none;
@@ -187,12 +188,12 @@ nav {
       visibility: hidden;
       opacity: 0;
       position: absolute;
-      transition: .35s ease-in-out;
       text-align: left;
       position: absolute;
       margin-top: 2.2em;
-      right: 0;
+      left: 0;
       padding: 0 2em;
+      width: 200px;
     }
 
     ul.top-navigation li:hover > ul.dropdown,
