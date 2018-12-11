@@ -35,14 +35,22 @@
 	color: #ffffff;
 	text-align: center;
 	background: linear-gradient(to bottom, $hero-gradient-color 33%, $secondary-brand-color 100%) no-repeat #a05fb7;
-	padding-top: 1em;
+	padding-top: 0;
 
 	p {
 		color: #fff;
 	}
 
 	img.logo.front {
-		height: auto;
+		height: 4em;
+	}
+
+	.hero-heading {
+		font-size: 2em;
+	}
+
+	.subtext {
+		font-size: 1em;
 	}
 }
 
@@ -65,5 +73,17 @@
 	}
 	.hero {
 		background: linear-gradient(to bottom, $hero-gradient-color 33%, $secondary-brand-color 100%) no-repeat #a05fb7;
+
+		img.logo.front {
+			height: auto;
+		}
+
+		.hero-heading {
+			font-size: 4em;
+		}
+
+		.subtext {
+			font-size: 1.2em;
+		}
 	}
 }
