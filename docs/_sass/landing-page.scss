@@ -34,7 +34,8 @@
 .hero {
 	color: #ffffff;
 	text-align: center;
-	background: linear-gradient(to bottom, $hero-gradient-color 33%, $secondary-brand-color 100%) no-repeat #a05fb7;
+	background: url(../images/header-bg.jpg) no-repeat 0 0 fixed;
+	background-size: cover;
 	padding-top: 0;
 
 	p {
@@ -72,7 +73,6 @@
 		flex-direction: row-reverse;
 	}
 	.hero {
-		background: linear-gradient(to bottom, $hero-gradient-color 33%, $secondary-brand-color 100%) no-repeat #a05fb7;
 
 		img.logo.front {
 			height: auto;

@@ -26,7 +26,8 @@ header {
 	color: #fff;
 	height: 6.9em;
 	background: $hero-color; /* Old browsers */
-	background: linear-gradient(to bottom, $hero-color 33%, $hero-gradient-color 100%) no-repeat $hero-color;
+	background: url(../images/header-bg.jpg) no-repeat 0 0 fixed;
+	background-size: cover;
 
 	a {
 		color: #fff;
