@@ -55,6 +55,9 @@
 	color: #666;
 	div {
 		break-inside: avoid;
+		page-break-inside: avoid;
+		-webkit-column-break-inside: avoid;
+
 		padding: 25px 0;
 	}
 

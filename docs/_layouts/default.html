@@ -24,7 +24,7 @@
 		<script src="{{ site.url }}/{{ site.baseurl }}/js/javascript.js"></script>
 		<script src="{{ site.url }}/{{ site.baseurl }}/js/modernizr.min.js"></script>
 	</head>
-	<body>
+	<body {% if page.homepage == true %}class="homepage"{% endif %}>
 		<header>
 			<div class="container">
 				{% if page.homepage == null or page.homepage == false %}

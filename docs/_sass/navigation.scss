@@ -81,6 +81,10 @@
 	}
 }
 
+.homepage nav li.active {
+	border-bottom: none;
+}
+
 nav {
 	text-transform: uppercase;
 	font-size: 1em;
@@ -224,5 +228,6 @@ nav {
 		color: #fff;
 		border-bottom: 1px solid #fd0000;
 	}
+
 
 }

@@ -1,18 +1,37 @@
+- name: Home
+  link: /
+  new_window: false
+  highlight: false
 - name: Game
-  link: /game/
+  link: /game
   new_window: false
   highlight: false
   dropdown:
     - name: "How to Play"
       link: "/game/how-to-play"
-- name: Downloads
-  link: /downloads/
+    - name: "Controls"
+      link: "/game/controls"
+    - name: "Changelog"
+      link: "/game/changelog"
+- name: Download
+  link: /download/
   new_window: false
   highlight: false
 - name: Top 100
   link: /top-100/
   new_window: false
   highlight: false
+- name: Media
+  link: /media
+  new_window: false
+  highlight: false
+  dropdown:
+    - name: "Screenshots"
+      link: "/media#screenshots"
+    - name: "Videos"
+      link: "/media#videos"
+    - name: "Music"
+      link: "/media#music"
 - name: News
   link: /news/
   new_window: false
