@@ -174,16 +174,6 @@ nav {
       width: 100%
     }
 
-    ul.top-navigation li:hover > ul.dropdown,
-    ul.top-navigation li ul.dropdown:hover {
-      visibility: visible;
-      opacity: 1;
-      display: block;
-      margin: 0;
-      padding: 0;
-      background: #fd0000;
-    }
-
     ul.top-navigation li ul.dropdown li {
       clear: both;
       width: 100%;
@@ -203,6 +193,24 @@ nav {
       margin-top: 2.2em;
       right: 0;
       padding: 0 2em;
+    }
+
+    ul.top-navigation li:hover > ul.dropdown,
+    ul.top-navigation li ul.dropdown:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      margin: 0;
+      padding: 0;
+      background: #fd0000;
+    }
+
+    ul.top-navigation li ul.dropdown li:last-child a {
+      border-bottom: none;
+    }
+
+    ul.top-navigation li:last-child a {
+      border-bottom: none;
     }
 
     li {
@@ -247,7 +255,8 @@ nav {
         border-bottom: none;
       } 
 
-      a:hover, nav a:focus {
+      a:hover,
+      a:focus {
         background: none;
         text-decoration: none;
       }
