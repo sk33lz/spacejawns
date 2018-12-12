@@ -1,6 +1,5 @@
 .footer-links {
-	width: 100%;
-	margin: 10px;
+	margin: 1em 1.2em;
 	padding: 0;
 
 	@media #{$tablet} {
@@ -98,6 +97,7 @@ footer {
 		@extend %flexbox;
 		@include flex-flow(wrap);
 		margin: -10px -10px 10px -10px;
+		display: flex;
 	}
 
 	a {

@@ -1,8 +1,8 @@
 ---
-title: Downloads
+title: Download
 heading: Download Space Jawns
 description: Downloads are currently available for Windows, Mac, Linux, and Android operating systems.
-permalink: /downloads/
+permalink: /download/
 pricing_table:
   - name: Windows
     color: "#0078d7"
@@ -54,15 +54,22 @@ pricing_table:
       text: Download for Android
 faqs:
   - question: Is there a Space Jawns iOS version?
-    answer: No. We currently do not have an iOS version. A new developer license is now available that we are looking to apply or soon to develop for iOS.
-  - question: How much does Space Jawns cost to download?
-    answer: Space Jawns is currently in Alpha, so we are not currently selling the game. The Alpha and Beta versions of Space Jawns will be free to play.
+    answer: No. I am currently looking into a newer version of the iOS Developer license so that I can start building and testing Space Jawns for the iOS without paying their yearly fee.
+
   - question: How large is the install?
     answer: The extracted Space Jawns installation is currently less than X MB as of the X.X.X release.
+
   - question: Is there any DLC?
-    answer: No. We currently do not offer any Space Jawns DLC. We currently only have plans to release standalone versions in the Space Jawns series.
+    answer: No. Space Jawns currently does not offer any Downloadable Content. We currently only have plans to release standalone versions in the Space Jawns series.
+
+  - question: How much does Space Jawns cost?
+    answer: Space Jawns is currently in Alpha, so it is not currently for sale. The Alpha and Beta versions of Space Jawns will be free to play. The final version price is TBD.
+    
   - question: Are there any plugins or addons?
     answer: No. We currently do not have any sort of plugin system integrated into the game. We do have plans to support plugins in our Roadmap.
+
+  - question: When will the next version be released?
+    answer: Space Jawns releases are typically released every few months to add new content and fix existing major bugs. New releases are available on the downloads page.
 ---
 
 <div class="plans">

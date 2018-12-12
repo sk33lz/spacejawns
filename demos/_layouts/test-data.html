@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Example</title>
+
+<!-- Load JQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!-- Load JSON file and output it-->
+<script>
+$(function() {
+
+  // User clicks the "getData" button
+  $("#getData").click(function() {
+  
+    // Put pilotList element and JSON file location into a variable
+    var pilotList = $("#pilotList");
+    var url = "http://localhost:4001/api/v1/pilots";
+
+    // Get the JSON file
+    $.getJSON(url, function(data) {
+
+      // Put pilot info into a variable
+      var pilots = data.response.map(function(item) {
+        return item.userId + " (" + item.high_score + ")";
+      });
+      
+      // Remove all child nodes (including text nodes) 
+      pilotList.empty();
+
+      // Format pilots with HTML tags 
+      if (pilots.length) {
+        var content = "<li>" + pilots.join("</li><li>") + "</li>";
+        var list = $("<ul>").html(content);
+        pilotList.append(list);
+      }
+    });
+  });
+});
+</script>
+</head>
+<!-- The output appears here -->
+<button id="getData">Display pilots</button>
+<div id="pilotList"></div>
+</html>

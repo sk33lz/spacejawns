@@ -25,6 +25,9 @@
 		<script src="{{ site.url }}/{{ site.baseurl }}/js/modernizr.min.js"></script>
 	</head>
 	<body {% if page.homepage == true %}class="homepage"{% endif %}>
+		<div id=skip" role="navigation" aria-label="Skip to the Main Content" class="skipnav">
+			<a href="#maincontent">Skip to main content</a> <a href="#sitemap">Skip to footer site map</a>
+		</div>
 		<header>
 			<div class="container">
 				{% if page.homepage == null or page.homepage == false %}
@@ -35,20 +38,23 @@
 				{% include navigation.html %}
 			</div>
 		</header>
+		<main id="maincontent">
 		{{ content }}
 		<footer>
 			<div class="container">
 				<div class="footer-columns">
 					{% for column in site.data.footer %}
-					<ul class="footer-links">
-						{% for link in column.links %}
-							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
-								{% if link.social_icon %}
-									{% include social-icon.html icon=link.social_icon %}
-								{% endif %}
-								{{ link.name }}</a></li>
-						{% endfor %}
-					</ul>
+						<ul class="footer-links">
+							{% for link in column.links %}
+								<li>
+									<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+										{%- if link.social_icon -%}
+											{% include social-icon.html icon=link.social_icon %}
+										{%- endif -%}{{ link.name }}
+									</a>
+								</li>
+							{% endfor %}
+						</ul>
 					{% endfor %}
 				</div>
 				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Space Jawns. • <a href="/about/terms" title="Terms and Conditions">Terms</a> &amp; <a href="/about/privacy" title="Privacy Policy">Privacy</a> • A <a href="https://sk33lz.com/">sk33lz</a> development project.</p>
