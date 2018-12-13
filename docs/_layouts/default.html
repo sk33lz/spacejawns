@@ -23,6 +23,31 @@
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 		<script src="{{ site.url }}/{{ site.baseurl }}/js/javascript.js"></script>
 		<script src="{{ site.url }}/{{ site.baseurl }}/js/modernizr.min.js"></script>
+		{% if page.top100 %}
+			<script src="/js/JSON-to-Table.min.1.0.0.js"></script>
+			<script type="text/javascript">
+			    $(document).ready(function () {
+			        // Use a .json file.
+			        $.getJSON("http://localhost:4001/api/v1/data/top-100.json", function (data) {
+			        // Use a JSON formatted URL.
+			        //$.getJSON("http://localhost:4001/api/v1/top-100", function (data) {
+			            for (var i = 0; i < data.response.length; i++) {
+			                var tr = $('<tr/>');
+			                var x=i+1;
+			                $(tr).append("<td>" + [x] + "</td>");
+			                $(tr).append("<td>" + data.response[i].username + "</td>");
+			                $(tr).append("<td>" + data.response[i].highscore + "</td>");
+			                $(tr).append("<td>" + data.response[i].asteroids + "</td>");
+			                $(tr).append("<td>" + data.response[i].enemies + "</td>");
+			                $(tr).append("<td>" + data.response[i].turrets + "</td>");
+			                $(tr).append("<td>" + data.response[i].bonsues + "</td>");
+			                $(tr).append("<td>" + data.response[i].powerups + "</td>");
+			                $('.high-score').append(tr);
+			            }
+			        });
+			    });
+			</script>
+		{% endif %}
 	</head>
 	<body {% if page.homepage == true %}class="homepage"{% endif %}>
 		<div id=skip" role="navigation" aria-label="Skip to the Main Content" class="skipnav">
