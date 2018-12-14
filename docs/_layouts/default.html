@@ -28,8 +28,12 @@
 			<script type="text/javascript">
 			    $(document).ready(function () {
 			        // Use a .json file.
-			        $.getJSON("http://api.spaceawns.com:4001/api/v1/data/top-100.json", function (data) {
-			        //$.getJSON("http://localhost:4001/api/v1/data/top-100.json", function (data) {
+			        {% if jekyll.environment == 'production' %}
+			        $.getJSON("https://api.spaceawns.com:4443/api/v1/data/top-100.json", function (data) {
+			        {% endif %}
+			        {% if jekyll.environment == 'development' %}
+			        $.getJSON("http://localhost:4001/api/v1/data/top-100.json", function (data) {
+			        {% endif %}
 			        // Use a JSON formatted URL.
 			        //$.getJSON("http://localhost:4001/api/v1/top-100", function (data) {
 			            for (var i = 0; i < data.response.length; i++) {
@@ -43,6 +47,8 @@
 			                $(tr).append("<td>" + data.response[i].careerturrets + "</td>");
 			                $(tr).append("<td>" + data.response[i].careerbonuses + "</td>");
 			                $(tr).append("<td>" + data.response[i].careerpowerups + "</td>");
+			                $(tr).append("<td>" + data.response[i].careertoplevel + "</td>");
+			                $(tr).append("<td>" + data.response[i].careertimeplayed + "</td>");
 			                $('.high-score').append(tr);
 			            }
 			        });
