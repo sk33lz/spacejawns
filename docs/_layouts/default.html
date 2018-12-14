@@ -29,7 +29,7 @@
 			    $(document).ready(function () {
 			        // Use a .json file.
 			        {% if jekyll.environment == 'production' %}
-			        $.getJSON("https://api.spaceawns.com:4443/api/v1/data/top-100.json", function (data) {
+			        $.getJSON("https://api.spacejawns.com:4443/api/v1/data/top-100.json", function (data) {
 			        {% endif %}
 			        {% if jekyll.environment == 'development' %}
 			        $.getJSON("http://localhost:4001/api/v1/data/top-100.json", function (data) {
