@@ -2,10 +2,10 @@
 # Site
 
 title: Space Jawns
-url: "https://sk33lz.github.io"
+url: "https://laughing-heisenberg-4de776.netlify.com/"
 baseurl: spacejawns # leave blank for /
-imageurl: https://sk33lz.github.io/spacejawns/images/
-thumb_url: https://sk33lz.github.io/spacejawns/images/thumbnails/
+imageurl: https://laughing-heisenberg-4de776.netlify.com/images/
+thumb_url: https://laughing-heisenberg-4de776.netlify.com/images/thumbnails/
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -15,9 +15,9 @@ logo: logo.png
 favicon: favicon.ico
 description: A space game series inspired by 30+ years of playing space video games.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Space Jawns
+  email: info@spacejawns.com
+  twitter: spacejawns
 social:
   name: GitHub
   links:
