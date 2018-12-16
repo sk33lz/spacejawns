@@ -1,24 +1,24 @@
 - links:
   - name: Game
-    link: /game/
+    link: game
   - name: Downloads
-    link: /downloads/
+    link: downloads
   - name: Top 100
-    link: /top-100/
+    link: top-100
   - name: Media
-    link: /media/
+    link: media
 - links:
   - name: About
-    link: /about/
+    link: about
     new_window: true
   - name: News
-    link: /news/
+    link: news
     new_window: true
   - name: FAQ
-    link: /faq/
+    link: faq
     new_window: true
   - name: Wiki
-    link: /wiki/
+    link: wiki
     new_window: true
 - links:
   - name: Facebook
@@ -34,6 +34,6 @@
     social_icon: YouTube
     new_window: true
   - name: RSS
-    link: /feed.xml
+    link: feed.xml
     social_icon: RSS
     new_window: false
