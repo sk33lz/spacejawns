@@ -17,9 +17,19 @@
 				{% assign class = class | append: " active" %}
 			{%- endif -%}
 			{% if link.dropdown == nil %}
+				{% if jekyll.environment == 'production' %}
+				<li{% if link.link == page.url %} class="active"{% elsif page.homepage == true and link.link == '/' %} class="active"{% elsif link.highlight == true %} class="highlight"{% endif %}><a href="/{{ link.link }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
+				{% endif %}
+				{% if jekyll.environment == 'development' %}
 				<li{% if link.link == page.url %} class="active"{% elsif page.homepage == true and link.link == '/' %} class="active"{% elsif link.highlight == true %} class="highlight"{% endif %}><a href="{{ site.url }}/{{ site.baseurl }}{{ link.link }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
+				{% endif %}
 			{% else %}
+				{% if jekyll.environment == 'production' %}
+				<li class="has-dropdown{%- if link.link == page.url -%} active{%- endif -%}"><a href="/{{ link.link }}"{% if link.link contains 'http' %} target="_blank"{% endif %}>{{ link.name | escape }}</a>
+				{% endif %}
+				{% if jekyll.environment == 'development' %}
 				<li class="has-dropdown{%- if link.link == page.url -%} active{%- endif -%}"><a href="{{ site.url }}/{{ site.baseurl }}{{ link.link }}"{% if link.link contains 'http' %} target="_blank"{% endif %}>{{ link.name | escape }}</a>
+				{% endif %}
 					<ul class="dropdown">
 						{%- for dropdown_link in link.dropdown -%}
 							{% if dropdown_link.link contains 'http' %}
@@ -27,7 +37,12 @@
 							{% else %}
 								{% assign domain = site.url %}
 							{% endif %}
+							{% if jekyll.environment == 'production' %}
+							<li><a href="/{{ dropdown_link.link }}"{% if dropdown_link.link contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.name | escape }}</a></li>
+							{% endif %}
+							{% if jekyll.environment == 'development' %}
 							<li><a href="{{ site.url }}/{{ site.baseurl }}{{ dropdown_link.link }}"{% if dropdown_link.link contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.name | escape }}</a></li>
+							{% endif %}
 						{%- endfor -%}
 					</ul>
 				</li>
