@@ -29,9 +29,9 @@
     link: https://twitter.com/spacejawns
     social_icon: Twitter
     new_window: true
-  - name: YouTube
-    link: https://youtube.com
-    social_icon: YouTube
+  - name: Discord
+    link: https://discord.gg/RaFY2x4
+    social_icon: Discord
     new_window: true
   - name: RSS
     link: feed.xml
