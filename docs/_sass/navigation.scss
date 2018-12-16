@@ -321,6 +321,10 @@ nav.main-menu {
   }
 
   nav.page-menu {
+    text-transform: uppercase;
+    display: inline-block;
+    height: 100%;
+
     ul {
       list-style-type: none;
       padding: 0;
