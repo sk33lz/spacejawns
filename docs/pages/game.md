@@ -18,11 +18,11 @@ faqs:
 
 <nav class="page-menu" role="navigation" aria-expanded="false" aria-label="Page menu">
   <ul>
-    <li><a href="/about">About the Game</a></li>
-    <li><a href="/game#how-to-play">How to Play</a></li>
-    <li><a href="/game#controls">Controls</a></li>
-    <li><a href="/game#changelog">Changelog</a></li>
-    <li><a href="/game#credits">Credits</a></li>
+    <li><a href="/about">About the Game</a><i class="fas fa-grip-lines-vertical"></i></li>
+    <li><a href="/game#how-to-play">How to Play</a><i class="fas fa-grip-lines-vertical"></i></li>
+    <li><a href="/game#controls">Controls</a><i class="fas fa-grip-lines-vertical"></i></li>
+    <li><a href="/game#changelog">Changelog</a><i class="fas fa-grip-lines-vertical"></i></li>
+    <li><a href="/game#credits">Credits</a><i class="fas fa-grip-lines-vertical"></i></li>
   </ul>
 </nav>
 
