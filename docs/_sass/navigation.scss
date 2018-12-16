@@ -333,6 +333,10 @@ nav.main-menu {
         margin: 0;
         padding: 3px 15px;
         border-left: 1px solid #000;
+
+        &.first {
+          border-left: none;
+        }
       }
     }
   }
