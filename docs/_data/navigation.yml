@@ -3,7 +3,7 @@
   new_window: false
   highlight: false
 - name: Game
-  link: /game
+  link: game
   new_window: false
   highlight: false
   dropdown:
@@ -14,15 +14,15 @@
     - name: "Changelog"
       link: "/game/changelog"
 - name: Download
-  link: /download/
+  link: download/
   new_window: false
   highlight: false
 - name: Top 100
-  link: /top-100/
+  link: top-100
   new_window: false
   highlight: false
 - name: Media
-  link: /media
+  link: media
   new_window: false
   highlight: false
   dropdown:
@@ -33,18 +33,18 @@
     - name: "Music"
       link: "/media#music"
 - name: News
-  link: /news/
+  link: news
   new_window: false
   highlight: false
 - name: FAQ
-  link: /faq/
+  link: faq
   new_window: false
   highlight: false
 - name: Wiki
-  link: /wiki/
+  link: wiki
   new_window: false
   highlight: false
 - name: Support
-  link: /support/
+  link: support
   new_window: false
   highlight: true
