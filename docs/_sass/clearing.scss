@@ -196,7 +196,7 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255,255,255) !default;
               min-height: inherit;
               float: $default-float;
               overflow: hidden;
-              margin-#{$opposite-direction}: 0;
+              margin-#{$opposite-direction}: 1em;
               padding: 0;
               position: relative;
               cursor: $cursor-pointer-value;
