@@ -300,6 +300,30 @@ nav.main-menu {
 
     }
 
+    nav.page-menu {
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%
+
+        li {
+          display: inline;
+          float: left;
+          margin-right: 5px;
+
+          &:hover {
+            border-bottom: 1px solid #fd0000;
+          }
+
+          a:hover,
+          a:focus {
+            background: #b10000;
+          }
+        }
+      }
+    }
+
 
     a {
       display: block;
