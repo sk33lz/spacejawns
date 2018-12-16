@@ -4,61 +4,7 @@ heading: Find the perfect plan for your business
 description: All plans include our award winning sales optimization solution to track your sales in real time.
 permalink: /game/
 site_name: true
-pricing_table:
-  - name: Basic
-    color: "#8e8e8e"
-    features:
-      - text: $25 per month
-        highlight: true
-      - text: Up to 5 users
-        highlight: false
-      - text: Basic lead scoring
-        highlight: false
-      - text: CRM
-        highlight: false
-      - text: Basic reporting
-        highlight: false
-      - text: Sales map
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=basic
-      text: Get started
-  - name: Pro
-    color: "#4a4a4a"
-    features:
-      - text: $99 per month
-        highlight: true
-      - text: Everything in Basic
-        highlight: false
-      - text: Up to 25 users
-        highlight: false
-      - text: Advanced lead scoring
-        highlight: false
-      - text: Pipeline management
-        highlight: false
-      - text: Advanced reporting
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=pro
-      text: Get started
-  - name: Professional
-    color: "#000000"
-    features:
-      - text: $299 per month
-        highlight: true
-      - text: Everything in Basic and Pro
-        highlight: false
-      - text: Up to 100 users
-        highlight: false
-      - text: Campaign builder
-        highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=professional
-      text: Get started
+
 faqs:
   - question: What types of payment do you accept?
     answer: Credit cards including MasterCard, Visa or American Express.
@@ -70,21 +16,45 @@ faqs:
     answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
 
-<div class="plans">
-	{% for plan in page.pricing_table %}
-		<ul class="plan">
-			<li style="background: {{ plan.color }}">
-				<h3>{{ plan.name }}</h3>
-			</li>
-			{% for feature in plan.features %}
-				<li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
-			{% endfor %}
-			{% if plan.call_to_action %}
-				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
-      {% endif %}
-    </ul>
-	{% endfor %}
-</div>
+<a href="/about">About the Game</a> | <a href="#how-to-play">How to Play</a> | <a href="#controls">Controls</a> | <a href="#changelog">Changelog</a> | <a href="#credits">Credits</a>
+
+<h2 id="about-game"> About the Game</h2>
+
+Space Jawns is a Classic space shooter game series built for today's computers and mobile devices. Space Jawns has been inspired by 30+ years of playing space video games, and more recently the constant release of early access games on Steam. The first space games I ever played were on the Atari and Commodore 64 systems with games like Space Invaders, Galaga, and Zaxxon. These games were some of the most polished space games I have ever played, hands down. There were no early access releases, no Post-Release patches, and definitely no Pay to Win games in those days. The only thing you were paying for was the quarter to possibly get your name on the high score list. I call these the Golden Years of video games, and they are what have inspired Space Jawns from it's core.
+
+As computers advanced over the years, I moved onto DOS games like TIE Fighter, then more advanced Windows games like Freelancer, and eventually my favorite to date, Star Wars Galaxies: Jump to Lightspeed. The space gameplay in Jump to Lightspeed was a great throwback and update to the old X-Wing/TIE Fighter games. It was very sad to see it go when SOE shut down the SWG servers in Dec. 2011. Since then, there have been some attempts to create the next best space game, and right now it looks like Star Citizen may hold that title, as it is really pushing the limits to what could be the greatest space game to date.
+
+Space Jawns was created as an ode to what space videos games used to be in those Golden Years of video games. It strives to set an example of what video games should continue to be today. That means a completed game that is FUN and AFFORDABLE for all ages! I am not going to be selling Early Access to Space Jawns. You get to play it for free like any other normal Alpha or Beta Testing that software companies do where they want Gamers to test the game and provide feedback. I am not looking to get rich and then never finish my game, which I feel is a big issue with game developers currently releasing games through Steam's greenlight program. My goal is to listen to Alpha and Beta tester feedback to make a better game wherever possible. The main goal is to complete the game before trying to sell it. I think that's a pretty fair deal for those who may want to purchase it once it's ready for release.
+
+Thank you for taking the time to read about Space Jawns. Now you should go [Download Space Jawns](/download). Once you have given it a try join the Space Jawns Discord channel to report bugs, give feedback and suggestions, or ask questions about the game so far. Your feedback is greatly appreciated!
+
+Thanks!
+
+Jason
+
+<h2 id="how-to-play">How to Play</h2>
+The main objective of Space Jawns is to get the highest Score before all of your ships are destroyed by enemy ships, asteroids, or Enemy Turrets.
+
+<h2 id="controls">Controls</h2>
+
+### PC/Mac/Linux Controls
+
+#### Keyboard Controls
+**Move Left:** A, Left Arrow, Joystick/Gamepad Left X-axis.
+**Move Right:** D, Right Arrow, Joystick/Gamepad Right X-axis.
+**Fire 1:** Space Bar, Left Mouse Button
+**Pause:** P or Escape
+**Take Screenshot:** F5
+**Quit:** Escape
+
+### Android Controls
+
+**Move Left:** Tilt device to left like a steering wheel.
+**Move Right:** Tile device to right like a steering wheel.
+**Fire 1:** Tap your screen.
+**Take Screenshot:** Use Native screenshot gesture.
+**Quit:** Return to Home
+
 {% if page.faqs %}
   <h2>Pricing FAQ</h2>
   <dl class="faq">
