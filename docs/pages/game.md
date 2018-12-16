@@ -28,7 +28,6 @@ faqs:
 </nav>
 
 <h2>About the Game</h2>
-
 Space Jawns is a Classic space shooter game series built for today's computers and mobile devices. Space Jawns has been inspired by 30+ years of playing space video games, and more recently the constant release of early access games on Steam. The first space games I ever played were on the Atari and Commodore 64 systems with games like Space Invaders, Galaga, and Zaxxon. These games were some of the most polished space games I have ever played, hands down. There were no early access releases, no Post-Release patches, and definitely no Pay to Win games in those days. The only thing you were paying for was the quarter to possibly get your name on the high score list. I call these the Golden Years of video games, and they are what have inspired Space Jawns from it's core.
 
 As computers advanced over the years, I moved onto DOS games like TIE Fighter, then more advanced Windows games like Freelancer, and eventually my favorite to date, Star Wars Galaxies: Jump to Lightspeed. The space gameplay in Jump to Lightspeed was a great throwback and update to the old X-Wing/TIE Fighter games. It was very sad to see it go when SOE shut down the SWG servers in Dec. 2011. Since then, there have been some attempts to create the next best space game, and right now it looks like Star Citizen may hold that title, as it is really pushing the limits to what could be the greatest space game to date.
