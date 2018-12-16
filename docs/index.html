@@ -8,12 +8,22 @@ homepage: true
 
 <section class="hero">
 	<div class="text-container">
+		{% if jekyll.environment == 'production' %}
+		<img class="logo front" src="/images/logo.png" alt="Space Jawns logo" />
+		{% endif %}
+		{% if jekyll.environment == 'development' %}
 		<img class="logo front" src="{{ site.url }}/{{ site.baseurl }}/images/logo.png" alt="Space Jawns logo" />
+		{% endif %}
 		<h1 class="hero-heading">Space Jawns</h1>
 		<p class="subtext">A space game series inspired by 30+ years of playing space video games.</p>
 		<div class="cta button alt"><a href="/downloads/">Download Space Jawns Alpha</a></div>
 		<div>
+			{% if jekyll.environment == 'production' %}
+			<img src="/images/dashboard.png" alt="Screenshot" class="screenshot" />
+			{% endif %}
+			{% if jekyll.environment == 'development' %}
 			<img src="{{ site.url }}/{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot" />
+			{% endif %}
 		</div>
 	</div>
 </section>
@@ -26,7 +36,12 @@ homepage: true
 				<p>Space Jawns is a space game series currently in the planning and alpha phase of development. The first installment is a free to play 2.5D space shooter called Space Jawns Alpha. Space Jawns Alpha can be played on PC, Mac, Linux, and Android operating systems.</p>
 			</div>
 			<div class="image">
+				{% if jekyll.environment == 'production' %}
+				<img src="/images/dashboard.png" alt="A screenshot of Space Jawns ship shooting lasers in-game." class="screenshot" />
+				{% endif %}
+				{% if jekyll.environment == 'development' %}
 				<img src="{{ site.url }}/{{ site.baseurl }}/images/dashboard.png" alt="A screenshot of Space Jawns ship shooting lasers in-game." class="screenshot" />
+				{% endif %}
 			</div>
 		</div>
 	</section>
@@ -38,7 +53,12 @@ homepage: true
 				<p>Compete against other pilots playing Space Jawns Alpha for the best high score in the Space Jawns <a href="{{ site.url }}/top-100/" title="Space Jawns Top 100 High Score leaderboard">Top 100</a> high score leaderboard!</p>
 			</div>
 			<div class="image">
+				{% if jekyll.environment == 'production' %}
+				<img src="/images/dashboard.png" alt="A screenshot of the Space Jawns Top 100 page from the website." class="screenshot" />
+				{% endif %}
+				{% if jekyll.environment == 'development' %}
 				<img src="{{ site.url }}/{{ site.baseurl }}/images/dashboard.png" alt="A screenshot of the Space Jawns Top 100 page from the website." class="screenshot" />
+				{% endif %}
 			</div>
 		</div>
 	</section>
@@ -50,9 +70,13 @@ homepage: true
 				<p>Space Jawns Alpha currently has 10 levels of space shooter gameplay with increasing difficulty, new enemies, and plans for an end boss level before launch.</p>
 			</div>
 			<div class="image">
+				{% if jekyll.environment == 'production' %}
+				<img src="/images/dashboard.png" alt="A screenshot of the Space Jawns game with multiple enemies and actions happening in the scene." class="screenshot" />
+				{% endif %}
+				{% if jekyll.environment == 'development' %}
 				<img src="{{ site.url }}/{{ site.baseurl }}/images/dashboard.png" alt="A screenshot of the Space Jawns game with multiple enemies and actions happening in the scene." class="screenshot" />
+				{% endif %}
 			</div>
 		</div>
 	</section>
-
 </div>
