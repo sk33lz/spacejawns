@@ -16,9 +16,9 @@ faqs:
     answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
 
-<a href="/about">About the Game</a> | <a href="#how-to-play">How to Play</a> | <a href="#controls">Controls</a> | <a href="#changelog">Changelog</a> | <a href="#credits">Credits</a>
+<a href="/about">About the Game</a> | <a href="/game#how-to-play">How to Play</a> | <a href="/game#controls">Controls</a> | <a href="/game#changelog">Changelog</a> | <a href="/game#credits">Credits</a>
 
-<h2 id="about-game"> About the Game</h2>
+<h2>About the Game</h2>
 
 Space Jawns is a Classic space shooter game series built for today's computers and mobile devices. Space Jawns has been inspired by 30+ years of playing space video games, and more recently the constant release of early access games on Steam. The first space games I ever played were on the Atari and Commodore 64 systems with games like Space Invaders, Galaga, and Zaxxon. These games were some of the most polished space games I have ever played, hands down. There were no early access releases, no Post-Release patches, and definitely no Pay to Win games in those days. The only thing you were paying for was the quarter to possibly get your name on the high score list. I call these the Golden Years of video games, and they are what have inspired Space Jawns from it's core.
 
