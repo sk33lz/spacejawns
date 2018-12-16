@@ -19,7 +19,8 @@
 			&:hover {
 				text-decoration: none;
 			}
-			svg {
+			svg,
+			span {
 				fill: #999;
 				margin-right: 10px;
 				transition: fill 0.2s ease;
