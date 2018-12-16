@@ -326,6 +326,12 @@ nav.main-menu {
       padding: 0;
       margin: 0;
       width: 100%
+
+      li {
+        display: inline;
+        float: left;
+        margin-right: 5px;
+      }
     }
   }
     
