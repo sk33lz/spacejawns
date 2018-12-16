@@ -64,7 +64,7 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255,255,255) !default;
       height: 100%;
       top: 0;
       #{$default-float}: 0;
-      z-index: 998;
+      z-index: 9999;
 
       .clearing-close { display: block; }
     }
