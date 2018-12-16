@@ -331,6 +331,19 @@ nav.main-menu {
         display: inline;
         float: left;
         margin-right: 5px;
+
+        a:after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 0;
+          border: inset .4em;
+          border-color: rgba(255, 255, 255, 0.7) transparent transparent transparent;
+          border-top-style: solid;
+          position: absolute;
+          top: 1.2em;
+          right: .5em;
+        }
       }
     }
   }
