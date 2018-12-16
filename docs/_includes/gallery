@@ -31,7 +31,7 @@
 		{% capture url %}{{ item.image_url }}{% endcapture %}
 		{% assign split_url = url | split: '.' %}
 		{% capture thumb_url %}{{split_url[0]}}-thumb.{{split_url[1]}}{% endcapture %}
-		<li><a href="{{ site.imageurl }}{{ item.image_url }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.thumb_url }}{{ thumb_url }}" alt="{{ item.alt_text }}"></a></li>
+		<li><a href="{{ site.imageurl }}{{ item.image_url }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.thumb_url }}{{ thumb_url }}" alt="{{ item.alt_text }}"></a><p>{{ item.title }}</p></li>
 		{% endfor %}
 	</ul>
 </div>
