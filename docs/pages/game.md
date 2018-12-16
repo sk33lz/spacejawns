@@ -16,7 +16,7 @@ faqs:
     answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
 
-<nav role="navigation" aria-expanded="false" aria-label="Page menu">
+<nav class="page-menu" role="navigation" aria-expanded="false" aria-label="Page menu">
   <ul>
     <li><a href="/about">About the Game</a></li>
     <li><a href="/game#how-to-play">How to Play</a></li>

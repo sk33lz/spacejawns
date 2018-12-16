@@ -39,10 +39,10 @@
 }
 
 /*
- Default styles + Mobile first
- Offscreen menu style
-*/
-nav {
+ * Default styles + Mobile first
+ * Offscreen menu style
+ */
+nav.main-menu {
   text-transform: uppercase;
   font-size: 1em;
   font-weight: normal;
@@ -102,12 +102,12 @@ nav {
 }
 
 /*
- On small devices, allow it to toggle...
-*/
+ * On small devices, allow it to toggle...
+ */
 /*
- :target for non-JavaScript
- aria-expanded="true/false" will be for JavaScript
-*/
+ *:target for non-JavaScript
+ *aria-expanded="true/false" will be for JavaScript
+ */
 .main-menu:target,
 .main-menu[aria-expanded="true"] {
   left: 0;
@@ -128,10 +128,6 @@ nav {
   z-index: 1000;
 }
 
-/* 
- We could use `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
 .main-menu:target + .backdrop,
 .main-menu[aria-expanded="true"] + .backdrop {
   position: absolute;
@@ -155,6 +151,10 @@ nav {
   }
 }
 
+/*
+ * Desktop styles
+ * Inline menu style
+ */
 @media #{$desktop} {
   a {
 
@@ -164,7 +164,7 @@ nav {
 
   }
 
-  nav {
+  nav.main-menu {
     z-index: 9999;
     font-weight: bold;
     height: auto;
