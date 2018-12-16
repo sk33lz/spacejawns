@@ -16,7 +16,7 @@ faqs:
     answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
 
-<a href="/about">About the Game</a> | <a href="/game#how-to-play">How to Play</a> | <a href="/game#controls">Controls</a> | <a href="/game#changelog">Changelog</a> | <a href="/game#credits">Credits</a>
+<a href="/about">About the Game</a> \| <a href="/game#how-to-play">How to Play</a> \| <a href="/game#controls">Controls</a> \| <a href="/game#changelog">Changelog</a> \| <a href="/game#credits">Credits</a>
 
 <h2>About the Game</h2>
 
