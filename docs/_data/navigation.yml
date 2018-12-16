@@ -8,11 +8,11 @@
   highlight: false
   dropdown:
     - name: "How to Play"
-      link: "/game/how-to-play"
+      link: "game/how-to-play"
     - name: "Controls"
-      link: "/game/controls"
+      link: "game/controls"
     - name: "Changelog"
-      link: "/game/changelog"
+      link: "game/changelog"
 - name: Download
   link: download/
   new_window: false
@@ -27,11 +27,11 @@
   highlight: false
   dropdown:
     - name: "Screenshots"
-      link: "/media#screenshots"
+      link: "media#screenshots"
     - name: "Videos"
-      link: "/media#videos"
+      link: "media#videos"
     - name: "Music"
-      link: "/media#music"
+      link: "media#music"
 - name: News
   link: news
   new_window: false
