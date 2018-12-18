@@ -5,6 +5,8 @@ description: Contact support for bugs, questions, and feature requests.
 permalink: /support/
 ---
 
+## Space Jawns Discord Chat
+
 Space Jawns Support is currently being handled on the Space Jawns Discord chat. 
 
 Contact support by joining the Space Jawns Discord chat. Then join the #Support channel to submit an issue.
