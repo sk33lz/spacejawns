@@ -89,8 +89,7 @@ exclude:
   - README.md
   - LICENSE
 
-include:
-  - [_redirects]
+include: ["_redirects"]
 
 social_icons:
   - Facebook
