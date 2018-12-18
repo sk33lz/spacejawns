@@ -1,6 +1,6 @@
 ---
 title: Changelog
-permalink: /about/changelog
+permalink: /game/changelog
 description: We've built an amazing team of developers, marketers, designers and sales people.
 ---
 <ul class="staff">
