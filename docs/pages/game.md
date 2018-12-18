@@ -1,19 +1,19 @@
 ---
 title: Game
-heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+heading: About Space Jawns
+description: Learn what Space Jawns is all about, how to play the game, and the game controls.
 permalink: /game/
 site_name: true
 
 faqs:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+  - question: What software is Space Jawns being developed with?
+    answer: Space Jawns is being developed in Unity 3D using C#.
+  - question: Are there on-screen controls for Android?
+    answer: No, but we do plan on adding that feature in an upcoming update.
+  - question: How many developers are on the development team?
+    answer: Space Jawns is written by a solo developer currently.
+  - question: Got more questions?
+    answer: Contact us for any further questions on the <a href="/support" title="Space Jawns Support">Support</a> page.
 ---
 
 <nav class="page-menu" role="navigation" aria-expanded="false" aria-label="Page menu">
@@ -22,8 +22,8 @@ faqs:
     <li class="first"><a href="/about">About the Game</a><i class="fas fa-grip-lines-vertical"></i></li>
     <li><a href="/game#how-to-play">How to Play</a><i class="fas fa-grip-lines-vertical"></i></li>
     <li><a href="/game#controls">Controls</a><i class="fas fa-grip-lines-vertical"></i></li>
-    <li><a href="/game#changelog">Changelog</a><i class="fas fa-grip-lines-vertical"></i></li>
-    <li class="last"><a href="/game#credits">Credits</a><i class="fas fa-grip-lines-vertical"></i></li>
+    <li><a href="/game/changelog">Changelog</a><i class="fas fa-grip-lines-vertical"></i></li>
+    <li class="last"><a href="/game/credits">Credits</a><i class="fas fa-grip-lines-vertical"></i></li>
   </ul>
 </nav>
 
@@ -64,7 +64,7 @@ The main objective of Space Jawns is to get the highest Score before all of your
 **Quit:** Return to Home
 
 {% if page.faqs %}
-  <h2>Pricing FAQ</h2>
+  <h2>Space Jawns Game FAQs</h2>
   <dl class="faq">
     {% for item in page.faqs %}
       <div>
