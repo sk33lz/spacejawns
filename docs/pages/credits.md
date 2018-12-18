@@ -1,6 +1,6 @@
 ---
 title: Credits
-permalink: /about/credits
+permalink: /game/credits
 description: Space Jawns Game Credits
 ---
 
