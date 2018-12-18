@@ -44,9 +44,9 @@
 
 	.button a:hover, input[type=submit]:hover {
 		border: 1px solid rgba(255, 255, 255, 0.5);
+		border-radius: 3px;
 		background: $secondary-brand-color;
 		cursor: pointer;
-		border-radius: 3px;
 	}
 
 }
