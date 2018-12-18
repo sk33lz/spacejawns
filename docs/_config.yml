@@ -89,6 +89,9 @@ exclude:
   - README.md
   - LICENSE
 
+include:
+  - [_redirects]
+
 social_icons:
   - Facebook
   - Google Plus

@@ -1,0 +1,13 @@
+# Redirects from what the browser requests to what we serve
+/about                       /game
+/about/how-play              /game#how-to-play
+/about/changelog             /game/changelog
+/about/controls              /game#controls
+/about/credits               /game/credits
+
+/downloads/previous-releases /game/changelog
+
+/media/screenshots           /media#screenshots
+/media/videos                /media#videos
+
+/forum                       /support
