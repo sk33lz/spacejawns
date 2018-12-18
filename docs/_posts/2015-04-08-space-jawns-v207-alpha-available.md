@@ -35,4 +35,4 @@ It took longer than I thought it would, over a month, but I have compelted migra
 - Compressed all sound fx to ogg vorbis with highest compression as we are going for raw sound fx anyway.
 - Added play game button to Pause menu to allow unpausing from the menu. This option is selected by default.
 
-Check out the [Space Jawns download](https://spacejawns.com/download) page to get the latest files.
+Check out the [Space Jawns download](/download) page to get the latest files.

@@ -8,13 +8,15 @@
   highlight: false
   dropdown:
     - name: "How to Play"
-      link: "game/how-to-play"
+      link: "game#how-to-play"
     - name: "Controls"
-      link: "game/controls"
+      link: "game#controls"
     - name: "Changelog"
       link: "game/changelog"
+    - name: "Credits"
+      link: "game/credits"
 - name: Download
-  link: download/
+  link: download
   new_window: false
   highlight: false
 - name: Top 100
