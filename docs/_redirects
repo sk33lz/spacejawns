@@ -5,6 +5,7 @@
 /about/controls              /game#controls
 /about/credits               /game/credits
 
+/downloads                   /download
 /downloads/previous-releases /game/changelog
 
 /media/screenshots           /media#screenshots
