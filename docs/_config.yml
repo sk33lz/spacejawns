@@ -43,6 +43,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink: "/news/:title"
       _options:
         content:
           width: 1500
