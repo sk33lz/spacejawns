@@ -8,7 +8,23 @@
 /downloads                   /download
 /downloads/previous-releases /game/changelog
 
+/player-search               /top-100
+
 /media/screenshots           /media#screenshots
 /media/videos                /media#videos
 
 /forum                       /support
+
+# Posts
+/space-jawns-v206-alpha-available                         /news/space-jawns-v206-alpha-available
+/news/1432779098/space-jawns-v206-alpha-available         /news/space-jawns-v206-alpha-available
+/news/april-8-2015-308pm/space-jawns-v207-alpha-available /news/space-jawns-v207-alpha-available
+/news/1432779090/space-jawns-v207-alpha-available         /news/space-jawns-v207-alpha-available
+/news/may-27-2015-1009pm/space-jawns-v208-alpha-available /news/space-jawns-v208-alpha-available
+/news/1432779080/space-jawns-v208-alpha-available         /news/space-jawns-v208-alpha-available
+/news/1441087960/space-jawns-v210-alpha-available         /news/space-jawns-v210-alpha-available
+/news/1442905989/space-jawns-v211-alpha-available         /news/space-jawns-v211-alpha-available
+/news/1443345165/space-jawns-javascript-c-conversion      /news/space-jawns-javascript-c-conversion
+/news/1444893604/space-jawns-v240-alpha-available         /news/space-jawns-v240-alpha-available
+/news/1453067120/space-jawns-v241-alpha-available         /news/space-jawns-v241-alpha-available
+/news/1473905686/space-jawns-v250-alpha-available         /news/space-jawns-v250-alpha-available
