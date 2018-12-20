@@ -1,5 +1,5 @@
 ---
-date: 2016-08-12
+date: 2017-09-15
 title: Space Jawns v2.5.0 Alpha is Available!
 categories:
   - release
