@@ -9,8 +9,6 @@
     link: media
   - name: News
     link: news
-  - name: Wiki
-    link: wiki
   - name: Support
     link: support
 - links:
