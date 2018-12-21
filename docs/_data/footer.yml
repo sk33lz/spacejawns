@@ -5,21 +5,13 @@
     link: downloads
   - name: Top 100
     link: top-100
+- links:
   - name: Media
     link: media
-- links:
-  - name: About
-    link: about
-    new_window: true
   - name: News
     link: news
-    new_window: true
-  - name: FAQ
-    link: faq
-    new_window: true
-  - name: Wiki
-    link: wiki
-    new_window: true
+  - name: Support
+    link: support
 - links:
   - name: Facebook
     link: https://www.facebook.com/spacejawns/
