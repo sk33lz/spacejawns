@@ -93,7 +93,7 @@ faqs:
   - [Windows 32-bit download](https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1)
 
 <h2 id="mac-downloads">Mac Downloads</h2>
-  - [MacOS 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
+  - [MacOS 64-bit download](https://www.dropbox.com/s/dl8ttd2qypm5u2h/Space-Jawns-2.6.1-alpha.app.zip?dl=1)
 
 <h2 id="linux-downloads">Linux Downloads</h2>
   - [Linux 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
