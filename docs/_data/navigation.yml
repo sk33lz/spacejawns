@@ -38,10 +38,6 @@
   link: news
   new_window: false
   highlight: false
-- name: FAQ
-  link: faq
-  new_window: false
-  highlight: false
 - name: Wiki
   link: wiki
   new_window: false

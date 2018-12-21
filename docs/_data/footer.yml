@@ -1,25 +1,18 @@
 - links:
   - name: Game
     link: game
-  - name: Downloads
-    link: downloads
+  - name: Download
+    link: download
   - name: Top 100
     link: top-100
   - name: Media
     link: media
-- links:
-  - name: About
-    link: about
-    new_window: true
   - name: News
     link: news
-    new_window: true
-  - name: FAQ
-    link: faq
-    new_window: true
   - name: Wiki
     link: wiki
-    new_window: true
+  - name: Support
+    link: support
 - links:
   - name: Facebook
     link: https://www.facebook.com/spacejawns/

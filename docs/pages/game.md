@@ -9,9 +9,9 @@ faqs:
   - question: What software is Space Jawns being developed with?
     answer: Space Jawns is being developed in Unity 3D using C#.
   - question: Are there on-screen controls for Android?
-    answer: No, but we do plan on adding that feature in an upcoming update.
+    answer: No, but there are plan to add that feature in a future release.
   - question: How many developers are on the development team?
-    answer: Space Jawns is written by a solo developer currently.
+    answer: Space Jawns is currently written by a solo developer.
   - question: Got more questions?
     answer: Contact us for any further questions on the <a href="/support" title="Space Jawns Support">Support</a> page.
 ---
