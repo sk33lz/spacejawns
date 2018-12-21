@@ -14,7 +14,7 @@ pricing_table:
       - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=basic
+      link: /download#windows-downloads
       text: Download for Windows
   - name: MacOS
     color: "#7d7d7d"
@@ -26,7 +26,7 @@ pricing_table:
       - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=pro
+      link: /download#mac-downloads
       text: Download for MacOS
   - name: Linux
     color: "#282828"
@@ -38,7 +38,7 @@ pricing_table:
       - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=pro
+      link: /download#linux-downloads
       text: Download for Linux
   - name: Android
     color: "#A4C639"
@@ -50,7 +50,7 @@ pricing_table:
       - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=professional
+      link: /download#android-downloads
       text: Download for Android
 faqs:
   - question: Is there a Space Jawns iOS version?
@@ -96,11 +96,11 @@ faqs:
   - [MacOS 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
 
 <h2 id="linux-downloads">Linux Downloads</h2>
-  - [Windows 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
-  - [Windows 32-bit download](https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1)
+  - [Linux 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
+  - [Linux 32-bit download](https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1)
 
 <h2 id="android-downloads">Android Downloads</h2>
-  - [Download](https://www.dropbox.com/s/7hg0dgxu9zaglta/Space-Jawns-2.6.1-Alpha.apk?dl=1)
+  - [Android Download](https://www.dropbox.com/s/7hg0dgxu9zaglta/Space-Jawns-2.6.1-Alpha.apk?dl=1)
 
 {% if page.faqs %}
   <h2>Space Jawns Downloads FAQs</h2>
