@@ -87,6 +87,21 @@ faqs:
     </ul>
   {% endfor %}
 </div>
+
+<h2 id="windows-downloads">Windows Downloads</h2>
+  - [Windows 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
+  - [Windows 32-bit download](https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1)
+
+<h2 id="mac-downloads">Mac Downloads</h2>
+  - [MacOS 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
+
+<h2 id="linux-downloads">Linux Downloads</h2>
+  - [Windows 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
+  - [Windows 32-bit download](https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1)
+
+<h2 id="android-downloads">Android Downloads</h2>
+  - [Download](https://www.dropbox.com/s/7hg0dgxu9zaglta/Space-Jawns-2.6.1-Alpha.apk?dl=1)
+
 {% if page.faqs %}
   <h2>Space Jawns Downloads FAQs</h2>
   <dl class="faq">
