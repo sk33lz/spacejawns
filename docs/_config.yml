@@ -2,10 +2,10 @@
 # Site
 
 title: Space Jawns
-url: "https://laughing-heisenberg-4de776.netlify.com/"
+url: "https://spacejawns.netlify.com/"
 baseurl: spacejawns # leave blank for /
-imageurl: https://laughing-heisenberg-4de776.netlify.com/images/
-thumb_url: https://laughing-heisenberg-4de776.netlify.com/images/thumbnails/
+imageurl: https://spacejawns.netlify.com/images/
+thumb_url: https://spacejawns.netlify.com/images/thumbnails/
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
