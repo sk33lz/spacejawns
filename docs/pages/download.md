@@ -6,7 +6,7 @@ permalink: /download/
 pricing_table:
   - name: Windows
     color: "#0078d7"
-	fab: "fab fa-windows"
+	fab: fab fa-windows
     features:
       - text: <strong>Version</strong><br />2.6.1
         highlight: false
