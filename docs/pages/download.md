@@ -6,7 +6,6 @@ permalink: /download/
 pricing_table:
   - name: Windows
     color: "#0078d7"
-	fab: "fab fa-windows"
     features:
       - text: <strong>Version</strong><br />2.6.1
         highlight: false
@@ -19,7 +18,6 @@ pricing_table:
       text: Download for Windows
   - name: MacOS
     color: "#7d7d7d"
-	fab: "fab fa-apple"
     features:
       - text: <strong>Version</strong><br />2.6.1
         highlight: false
@@ -32,7 +30,6 @@ pricing_table:
       text: Download for MacOS
   - name: Linux
     color: "#282828"
-	fab: "fab fa-linux"
     features:
       - text: <strong>Version</strong><br />2.6.1
         highlight: false
@@ -45,7 +42,6 @@ pricing_table:
       text: Download for Linux
   - name: Android
     color: "#A4C639"
-	fab: "fab fa-windows"
     features:
       - text: <strong>Version</strong><br />2.6.1
         highlight: false
@@ -80,7 +76,7 @@ faqs:
   {% for plan in page.pricing_table %}
     <ul class="plan">
       <li style="background: {{ plan.color }}">
-        <h3 class="{{ plan.fab }}">{{ plan.name }}</h3>
+        <h3>{{ plan.name }}</h3>
       </li>
       {% for feature in plan.features %}
         <li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
