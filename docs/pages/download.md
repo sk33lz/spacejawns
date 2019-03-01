@@ -101,7 +101,7 @@ faqs:
 
 <h2 id="linux-downloads">Linux Downloads</h2>
   - [Linux 64-bit download](https://www.dropbox.com/s/5hdcza6vaceqiwz/Space-Jawns-3.0.0-Alpha-Linux64.zip?dl=1)
-  - [Linux 32-bit download](https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1)
+  - [Linux 32-bit download](https://www.dropbox.com/s/qdqo8ekd8n6yt8j/Space-Jawns-3.0.0-Alpha-Linux32.zip?dl=1)
 
 <h2 id="android-downloads">Android Downloads</h2>
   - [Android Download](https://www.dropbox.com/s/vjqz6s519o7rcou/Space-Jawns-3.0.0-Alpha.apk?dl=1)
