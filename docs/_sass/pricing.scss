@@ -32,6 +32,10 @@
 		.fa-white {
 			color: #FFFFFF;
 		}
+		
+		.fa-linux.fa-white {
+			color: #eeb923;
+		}
 
 		@media #{$desktop} {
 			-webkit-flex: 1;
