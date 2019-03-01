@@ -12,7 +12,7 @@ pricing_table:
         highlight: false
       - text: <strong>Released</strong><br />02/28/2019
         highlight: false
-      - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
+      - text: <strong>Changelog</strong><br /><a href="/changelog">View Changelog</a>
         highlight: false
     call_to_action:
       link: /download#windows-downloads
@@ -25,7 +25,7 @@ pricing_table:
         highlight: false
       - text: <strong>Released</strong><br />02/28/2019
         highlight: false
-      - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
+      - text: <strong>Changelog</strong><br /><a href="/changelog">View Changelog</a>
         highlight: false
     call_to_action:
       link: /download#mac-downloads
@@ -38,7 +38,7 @@ pricing_table:
         highlight: false
       - text: <strong>Released</strong><br />02/28/2019
         highlight: false
-      - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
+      - text: <strong>Changelog</strong><br /><a href="/changelog">View Changelog</a>
         highlight: false
     call_to_action:
       link: /download#linux-downloads
@@ -51,7 +51,7 @@ pricing_table:
         highlight: false
       - text: <strong>Released</strong><br />02/28/2019
         highlight: false
-      - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
+      - text: <strong>Changelog</strong><br /><a href="/changelog">View Changelog</a>
         highlight: false
     call_to_action:
       link: /download#android-downloads
