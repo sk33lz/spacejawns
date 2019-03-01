@@ -5,12 +5,12 @@ description: Downloads are currently available for Windows, Mac, Linux, and Andr
 permalink: /download/
 pricing_table:
   - name: Windows
-    icon: <i class="fab fa-windows fa-3x"></i>
+    icon: <i class="fab fa-windows fa-3x whiteiconcolor"></i>
     color: "#0078d7"
     features:
-      - text: <strong>Version</strong><br />2.6.1
+      - text: <strong>Version</strong><br />3.0.0-Alpha
         highlight: false
-      - text: <strong>Released</strong><br />12/15/2018
+      - text: <strong>Released</strong><br />02/28/2019
         highlight: false
       - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
         highlight: false
@@ -18,12 +18,12 @@ pricing_table:
       link: /download#windows-downloads
       text: Download for Windows
   - name: MacOS
-    icon: <i class="fab fa-apple fa-3x"></i>
+    icon: <i class="fab fa-apple fa-3x whiteiconcolor"></i>
     color: "#7d7d7d"
     features:
-      - text: <strong>Version</strong><br />2.6.1
+      - text: <strong>Version</strong><br />3.0.0-Alpha
         highlight: false
-      - text: <strong>Released</strong><br />12/15/2018
+      - text: <strong>Released</strong><br />02/28/2019
         highlight: false
       - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
         highlight: false
@@ -31,12 +31,12 @@ pricing_table:
       link: /download#mac-downloads
       text: Download for MacOS
   - name: Linux
-    icon: <i class="fab fa-linux fa-3x"></i>
+    icon: <i class="fab fa-linux fa-3x whiteiconcolor"></i>
     color: "#282828"
     features:
-      - text: <strong>Version</strong><br />2.6.1
+      - text: <strong>Version</strong><br />3.0.0-Alpha
         highlight: false
-      - text: <strong>Released</strong><br />12/15/2018
+      - text: <strong>Released</strong><br />02/28/2019
         highlight: false
       - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
         highlight: false
@@ -44,12 +44,12 @@ pricing_table:
       link: /download#linux-downloads
       text: Download for Linux
   - name: Android
-    icon: <i class="fab fa-android fa-3x"></i>
+    icon: <i class="fab fa-android fa-3x whiteiconcolor"></i>
     color: "#A4C639"
     features:
-      - text: <strong>Version</strong><br />2.6.1
+      - text: <strong>Version</strong><br />3.0.0-Alpha
         highlight: false
-      - text: <strong>Released</strong><br />12/15/2018
+      - text: <strong>Released</strong><br />02/28/2019
         highlight: false
       - text: <strong>Changelog</strong><br /><a href="#">View Changelog</a>
         highlight: false
