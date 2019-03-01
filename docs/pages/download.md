@@ -80,7 +80,7 @@ faqs:
   {% for plan in page.pricing_table %}
     <ul class="plan">
       <li style="background: {{ plan.color }}">
-        <h3 class="({{ plan.icon }}">{{ plan.name }}</h3>
+        <h3 class="{{ plan.icon }}">{{ plan.name }}</h3>
       </li>
       {% for feature in plan.features %}
         <li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
