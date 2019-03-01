@@ -93,18 +93,18 @@ faqs:
 </div>
 
 <h2 id="windows-downloads">Windows Downloads</h2>
-  - [Windows 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
-  - [Windows 32-bit download](https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1)
+  - [Windows 64-bit download](https://www.dropbox.com/s/nlf3sx1sasmdfda/Space-Jawns-3.0.0-Alpha-Win64.zip?dl=1)
+  - [Windows 32-bit download](https://www.dropbox.com/s/ljc2pcwf33otobf/Space-Jawns-3.0.0-Alpha-Win32.zip?dl=1)
 
 <h2 id="mac-downloads">Mac Downloads</h2>
-  - [MacOS 64-bit download](https://www.dropbox.com/s/dl8ttd2qypm5u2h/Space-Jawns-2.6.1-alpha.app.zip?dl=1)
+  - [MacOS 64-bit download](https://www.dropbox.com/s/mzm8sw9t65ch405/Space-Jawns-3.0.0-Alpha.app.zip?dl=1)
 
 <h2 id="linux-downloads">Linux Downloads</h2>
-  - [Linux 64-bit download](https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1)
+  - [Linux 64-bit download](https://www.dropbox.com/s/5hdcza6vaceqiwz/Space-Jawns-3.0.0-Alpha-Linux64.zip?dl=1)
   - [Linux 32-bit download](https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1)
 
 <h2 id="android-downloads">Android Downloads</h2>
-  - [Android Download](https://www.dropbox.com/s/7hg0dgxu9zaglta/Space-Jawns-2.6.1-Alpha.apk?dl=1)
+  - [Android Download](https://www.dropbox.com/s/vjqz6s519o7rcou/Space-Jawns-3.0.0-Alpha.apk?dl=1)
 
 {% if page.faqs %}
   <h2>Space Jawns Downloads FAQs</h2>
