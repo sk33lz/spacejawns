@@ -5,6 +5,7 @@ description: Downloads are currently available for Windows, Mac, Linux, and Andr
 permalink: /download/
 pricing_table:
   - name: Windows
+    icon: <i class="fab fa-windows"></i>
     color: "#0078d7"
     features:
       - text: <strong>Version</strong><br />2.6.1
@@ -17,6 +18,7 @@ pricing_table:
       link: /download#windows-downloads
       text: Download for Windows
   - name: MacOS
+    icon: <i class="fab fa-apple"></i>
     color: "#7d7d7d"
     features:
       - text: <strong>Version</strong><br />2.6.1
@@ -29,6 +31,7 @@ pricing_table:
       link: /download#mac-downloads
       text: Download for MacOS
   - name: Linux
+    icon: <i class="fab fa-linux"></i>
     color: "#282828"
     features:
       - text: <strong>Version</strong><br />2.6.1
@@ -41,6 +44,7 @@ pricing_table:
       link: /download#linux-downloads
       text: Download for Linux
   - name: Android
+    icon: <i class="fab fa-android"></i>
     color: "#A4C639"
     features:
       - text: <strong>Version</strong><br />2.6.1
@@ -76,7 +80,7 @@ faqs:
   {% for plan in page.pricing_table %}
     <ul class="plan">
       <li style="background: {{ plan.color }}">
-        <h3>{{ plan.name }}</h3>
+        {{ plan.icon }}<h3>{{ plan.name }}</h3>
       </li>
       {% for feature in plan.features %}
         <li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
