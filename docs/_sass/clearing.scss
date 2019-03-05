@@ -110,7 +110,7 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255,255,255) !default;
       bottom: 0;
       background: $clearing-caption-bg;
       width: 100%;
-      padding: $clearing-caption-padding;
+      padding: 0;
       position: absolute;
       #{$default-float}: 0;
     }
