@@ -60,8 +60,8 @@ faqs:
   - question: Is there a Space Jawns iOS version?
     answer: No. I am currently looking into a newer version of the iOS Developer license so that I can start building and testing Space Jawns for the iOS without paying their yearly fee.
 
-  - question: How large is the install?
-    answer: The extracted Space Jawns installation is currently less than X MB as of the X.X.X release.
+  - question: How much disk space does Space Jawns use?
+    answer: The download is around 100MB. The extracted Space Jawns installation is currently around  335MB as of the 3.0.0-Alpha release.
 
   - question: Is there any DLC?
     answer: No. Space Jawns currently does not offer any Downloadable Content. We currently only have plans to release standalone versions in the Space Jawns series.
