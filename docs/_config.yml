@@ -3,10 +3,10 @@
 
 title: Space Jawns
 url: "https://spacejawns.com/"
-baseurl: spacejawns # leave blank for /
+baseurl: # leave blank for /
 imageurl: https://spacejawns.com/images/
 thumb_url: https://spacejawns.com/images/thumbnails/
-google_analytics_key:
+google_analytics_key: UA-2062272-33
 google_maps_javascript_api_key:
 disqus_shortname:
 
