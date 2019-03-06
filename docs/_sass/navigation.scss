@@ -101,8 +101,8 @@
 	 *:target for non-JavaScript
 	 *aria-expanded="true/false" will be for JavaScript
 	 */
-	.main-menu:target,
-	.main-menu[aria-expanded="true"] {
+	&.main-menu:target,
+	&.main-menu[aria-expanded="true"] {
 	  left: 0;
 	  outline: none;
 	  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
@@ -110,19 +110,19 @@
 	  box-shadow: 3px 0 12px rgba(0,0,0,.25);
 	}
 
-	.main-menu:target .menu-close,
-	.main-menu[aria-expanded="true"] .menu-close {
+	&.main-menu:target .menu-close,
+	&.main-menu[aria-expanded="true"] .menu-close {
 	  z-index: 1001;
 	}
 
-	.main-menu:target ul,
-	.main-menu[aria-expanded="true"] ul {
+	&.main-menu:target ul,
+	&.main-menu[aria-expanded="true"] ul {
 	  position: relative;
 	  z-index: 1000;
 	}
 
-	.main-menu:target + .backdrop,
-	.main-menu[aria-expanded="true"] + .backdrop {
+	&.main-menu:target + .backdrop,
+	&.main-menu[aria-expanded="true"] + .backdrop {
 	  position: absolute;
 	  display: block;  
 	  content: "";
@@ -137,9 +137,9 @@
 	}
 
 	@supports (position: fixed) {
-	  .main-menu,
-	  .main-menu:target + .backdrop,
-	  .main-menu[aria-expanded="true"] + .backdrop {
+	  &.main-menu,
+	  &.main-menu:target + .backdrop,
+	  &.main-menu[aria-expanded="true"] + .backdrop {
 		position: fixed;
 	  }
 	}
