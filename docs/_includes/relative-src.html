@@ -1,6 +1,6 @@
-{% if jekyll.environment == 'production' %}
+{%- if jekyll.environment == 'production' -%}
 {% assign prefix = include.src | slice: 0, 2 %}{% assign protocol = include.src | slice: 0, 4 %}{% unless protocol == 'http' or prefix == "//" %}{% endunless %}{{ include.src }}
-{% endif %}
-{% if jekyll.environment == 'development' %}
+{%- endif -%}
+{%- if jekyll.environment == 'development' -%}
 {% assign prefix = include.src | slice: 0, 2 %}{% assign protocol = include.src | slice: 0, 4 %}{% unless protocol == 'http' or prefix == "//" %}{{ site.baseurl }}{% endunless %}{{ include.src }}
-{% endif %}
+{%- endif -%}
