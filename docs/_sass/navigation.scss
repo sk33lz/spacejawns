@@ -127,7 +127,8 @@
 	}
 
 	&.main-menu:target + .backdrop,
-	&.main-menu[aria-expanded="true"] + .backdrop {
+	&.main-menu[aria-expanded="true"] + .backdrop,
+	&.main-menu + .backdrop{
 	  position: absolute;
 	  display: block;
 	  left: 0;
