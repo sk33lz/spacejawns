@@ -107,6 +107,7 @@
 	 */
 	&.main-menu:target,
 	&.main-menu[aria-expanded="true"] {
+	  display:block;
 	  left: 0;
 	  outline: none;
 	  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
@@ -128,8 +129,7 @@
 	&.main-menu:target + .backdrop,
 	&.main-menu[aria-expanded="true"] + .backdrop {
 	  position: absolute;
-	  display: block;  
-	  content: "";
+	  display: block;
 	  left: 0;
 	  top: 0;
 	  width: 100%;
