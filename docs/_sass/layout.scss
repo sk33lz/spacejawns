@@ -24,7 +24,7 @@
 
 header {
 	color: #fff;
-	height: 6.9em;
+	height: 0; /* was 6.9em */
 	background: $hero-color; /* Old browsers */
 	background: url(../images/header-bg.jpg) no-repeat 0 0 fixed;
 	background-size: cover;
@@ -59,6 +59,10 @@ header {
 			font-family: $brand-font;
 			color: $brand-color;
 		}
+	}
+	
+	@media #{$desktop} {
+		height: 6.9em;
 	}
 }
 
