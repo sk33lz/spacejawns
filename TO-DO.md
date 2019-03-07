@@ -1,8 +1,13 @@
 # To Do List
 
 ## Website
-
-1. Make mobile menu better with a pure css off canvas menu like this, https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793.
-2. Tighten up the accessibility and run through some tools.
+1. Tighten up the accessibility and run through some tools.
+2. Performance Optimizations
   - Pagespeed Insights
-    - 98% Mobile, 100% Desktop
+    - 99% Mobile, 100% Desktop
+	- Serve images in nextgen formats.
+	- Eliminate render blocking CSS and JS.
+	  - …css/all.css(use.fontawesome.com)
+	  - /css/screen.css(spacejawns.com)
+	  - /js/modernizr.min.js
+  - Try .webp for mobile? Size savings is pretty incredible at about 1/10 optimized JPEG or PNG.
