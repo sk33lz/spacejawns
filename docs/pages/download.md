@@ -8,9 +8,9 @@ pricing_table:
     icon: <i class="fab fa-windows fa-3x fa-white"></i>
     color: "#0078d7"
     features:
-      - text: <strong>Version</strong><br />3.0.0-Alpha
+      - text: <strong>Version</strong><br />3.0.1-Alpha
         highlight: false
-      - text: <strong>Released</strong><br />02/28/2019
+      - text: <strong>Released</strong><br />03/06/2019
         highlight: false
       - text: <strong>Changelog</strong><br /><a href="/changelog">View Changelog</a>
         highlight: false
@@ -21,9 +21,9 @@ pricing_table:
     icon: <i class="fab fa-apple fa-3x fa-white"></i>
     color: "#7d7d7d"
     features:
-      - text: <strong>Version</strong><br />3.0.0-Alpha
+      - text: <strong>Version</strong><br />3.0.1-Alpha
         highlight: false
-      - text: <strong>Released</strong><br />02/28/2019
+      - text: <strong>Released</strong><br />03/06/2019
         highlight: false
       - text: <strong>Changelog</strong><br /><a href="/changelog">View Changelog</a>
         highlight: false
@@ -34,9 +34,9 @@ pricing_table:
     icon: <i class="fab fa-linux fa-3x fa-white"></i>
     color: "#282828"
     features:
-      - text: <strong>Version</strong><br />3.0.0-Alpha
+      - text: <strong>Version</strong><br />3.0.1-Alpha
         highlight: false
-      - text: <strong>Released</strong><br />02/28/2019
+      - text: <strong>Released</strong><br />03/06/2019
         highlight: false
       - text: <strong>Changelog</strong><br /><a href="/changelog">View Changelog</a>
         highlight: false
@@ -47,9 +47,9 @@ pricing_table:
     icon: <i class="fab fa-android fa-3x fa-white"></i>
     color: "#A4C639"
     features:
-      - text: <strong>Version</strong><br />3.0.0-Alpha
+      - text: <strong>Version</strong><br />3.0.1-Alpha
         highlight: false
-      - text: <strong>Released</strong><br />02/28/2019
+      - text: <strong>Released</strong><br />03/06/2019
         highlight: false
       - text: <strong>Changelog</strong><br /><a href="/changelog">View Changelog</a>
         highlight: false
@@ -93,18 +93,18 @@ faqs:
 </div>
 
 <h2 id="windows-downloads">Windows Downloads</h2>
-  - [Windows 64-bit download](https://www.dropbox.com/s/eu3gnji2h2d507k/Space-Jawns-3.0.0-Alpha-Win64.zip?dl=1)
-  - [Windows 32-bit download](https://www.dropbox.com/s/f6gfe5da4z3y5kz/Space-Jawns-3.0.0-Alpha-Win32.zip?dl=1)
+  - [Windows 64-bit download](https://www.dropbox.com/s/qafkt00nw3gsw0o/Space-Jawns-3.0.1-Alpha-Win64.zip?dl=1)
+  - [Windows 32-bit download](https://www.dropbox.com/s/xzs0rgd4tnwk6lu/Space-Jawns-3.0.1-Alpha-Win32.zip?dl=1)
 
 <h2 id="mac-downloads">Mac Downloads</h2>
-  - [MacOS 64-bit download](https://www.dropbox.com/s/slwsisectd1eak1/Space-Jawns-3.0.0-Alpha.app.zip?dl=1)
+  - [MacOS 64-bit download](https://www.dropbox.com/s/3xl96hmqzg91y30/Space-Jawns-3.0.1-Alpha.app.zip?dl=1)
 
 <h2 id="linux-downloads">Linux Downloads</h2>
-  - [Linux 64-bit download](https://www.dropbox.com/s/64qhwpkt8vpxa8z/Space-Jawns-3.0.0-Alpha-Linux64.zip?dl=1)
-  - [Linux 32-bit download](https://www.dropbox.com/s/wmbskamfgs1r0v5/Space-Jawns-3.0.0-Alpha-Linux32.zip?dl=1)
+  - [Linux 64-bit download](https://www.dropbox.com/s/ift23ebdypyvu2j/Space-Jawns-3.0.1-Alpha-Linux64.zip?dl=1)
+  - [Linux 32-bit download](https://www.dropbox.com/s/gs5qvwpxdof20ls/Space-Jawns-3.0.1-Alpha-Linux32.zip?dl=1)
 
 <h2 id="android-downloads">Android Downloads</h2>
-  - [Android Download](https://www.dropbox.com/s/5ptwsocedlnzw4m/Space-Jawns-3.0.0-Alpha.apk?dl=1)
+  - [Android Download](https://www.dropbox.com/s/tj2k6ji3z3o47tm/Space-Jawns-3.0.1-Alpha.apk?dl=1)
 
 {% if page.faqs %}
   <h2>Space Jawns Downloads FAQs</h2>
