@@ -144,7 +144,8 @@
 	@supports (position: fixed) {
 	  &.main-menu,
 	  &.main-menu:target + .backdrop,
-	  &.main-menu[aria-expanded="true"] + .backdrop {
+	  &.main-menu[aria-expanded="true"] + .backdrop,
+	  &.main-menu + .backdrop{
 		position: fixed;
 	  }
 	}
