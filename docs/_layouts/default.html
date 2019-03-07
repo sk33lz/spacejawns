@@ -7,18 +7,8 @@
 		{% seo %}
 		{% feed_meta %}
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-		{% if jekyll.environment == 'production' %}
 		<link rel="stylesheet" href="/css/screen.css">
-		{% endif %}
-		{% if jekyll.environment == 'development' %}
-		<link rel="stylesheet" href="{{ site.url }}/{{ site.baseurl }}/css/screen.css">
-		{% endif %}
-		{% if jekyll.environment == 'production' %}
 		<link rel="icon" type="image/x-icon" href="/{{ site.favicon }}">
-		{% endif %}
-		{% if jekyll.environment == 'development' %}
-		<link rel="icon" type="image/x-icon" href="{{ site.url }}/{{ site.baseurl }}/{{ site.favicon }}">
-		{% endif %}
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -28,56 +18,6 @@
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
 		{% endif %}
 		<link rel="canonical" href="{{ url }}{{ page.url }}">
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-		{% if jekyll.environment == 'production' %}
-		<script src="/js/javascript.js"></script>
-		{% endif %}
-		{% if jekyll.environment == 'development' %}
-		<script src="{{ site.url }}/{{ site.baseurl }}/js/javascript.js"></script>
-		{% endif %}
-		{% if jekyll.environment == 'production' %}
-		<script src="/js/modernizr.min.js"></script>
-		{% endif %}
-		{% if jekyll.environment == 'development' %}
-		<script src="{{ site.url }}/{{ site.baseurl }}/js/modernizr.min.js"></script>
-		{% endif %}
-		{% if page.top100 %}
-			{% if jekyll.environment == 'production' %}
-			<script src="/js/JSON-to-Table.min.1.0.0.js"></script>
-			{% endif %}
-			{% if jekyll.environment == 'development' %}
-			<script src="{{ site.url }}/{{ site.baseurl }}/js/JSON-to-Table.min.1.0.0.js"></script>
-			{% endif %}
-			<script type="text/javascript">
-			    $(document).ready(function () {
-			        // Use a .json file.
-			        {% if jekyll.environment == 'production' %}
-			        $.getJSON("https://api.spacejawns.com:4443/api/v1/data/top-100.json", function (data) {
-			        {% endif %}
-			        {% if jekyll.environment == 'development' %}
-			        $.getJSON("http://localhost:4001/api/v1/data/top-100.json", function (data) {
-			        {% endif %}
-			        // Use a JSON formatted URL.
-			        //$.getJSON("http://localhost:4001/api/v1/top-100", function (data) {
-			            for (var i = 0; i < data.response.length; i++) {
-			                var tr = $('<tr/>');
-			                var x=i+1;
-			                $(tr).append("<td>" + [x] + "</td>");
-			                $(tr).append("<td>" + data.response[i].username + "</td>");
-			                $(tr).append("<td>" + data.response[i].highscore + "</td>");
-			                $(tr).append("<td>" + data.response[i].careerasteroids + "</td>");
-			                $(tr).append("<td>" + data.response[i].careerenemyships + "</td>");
-			                $(tr).append("<td>" + data.response[i].careerturrets + "</td>");
-			                $(tr).append("<td>" + data.response[i].careerbonuses + "</td>");
-			                $(tr).append("<td>" + data.response[i].careerpowerups + "</td>");
-			                $(tr).append("<td>" + data.response[i].careertoplevel + "</td>");
-			                $(tr).append("<td>" + data.response[i].careertimeplayed + "</td>");
-			                $('.high-score').append(tr);
-			            }
-			        });
-			    });
-			</script>
-		{% endif %}
 	</head>
 	<body {% if page.homepage == true %}class="homepage"{% endif %}>
 		<div id=skip" role="navigation" aria-label="Skip to the Main Content" class="skipnav">
@@ -87,12 +27,7 @@
 			<div class="container">
 				{% if page.homepage == null or page.homepage == false %}
 					<div class="company-name">
-						{% if jekyll.environment == 'production' %}
 						<a href="/"><img class="logo" src="/images/{{ site.logo }}" alt="Space Jawns Logo" width="100%" height="64" />{% if page.site_name == false %}{% else %}<strong>Space Jawns</strong>{% endif %}</a>
-						{% endif %}
-						{% if jekyll.environment == 'development' %}
-						<a href="{{ site.url }}/{{ site.baseurl }}/"><img class="logo" src="{{ site.url }}/{{ site.baseurl }}/images/{{ site.logo }}" alt="Space Jawns Logo" width="100%" height="64" />{% if page.site_name == false %}{% else %}<strong>Space Jawns</strong>{% endif %}</a>
-						{% endif %}
 					</div>
 				{% endif %}
 				{% include navigation.html %}
@@ -113,26 +48,9 @@
 						</ul>
 					{% endfor %}
 				</div>
-				{% if jekyll.environment == 'production' %}
 				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Space Jawns. • <a href="/about/terms" title="Terms and Conditions">Terms</a> &amp; <a href="/about/privacy" title="Privacy Policy">Privacy</a> • A <a href="https://sk33lz.com/">sk33lz</a> development project.</p>
-				{% endif %}
-				{% if jekyll.environment == 'development' %}
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Space Jawns. • <a href="{{ site.url }}/{{ site.baseurl }}/about/terms" title="Terms and Conditions">Terms</a> &amp; <a href="{{ site.url }}/{{ site.baseurl }}/about/privacy" title="Privacy Policy">Privacy</a> • A <a href="https://sk33lz.com/">sk33lz</a> development project.</p>
-				{% endif %}
 			</div>
 		</footer>
-		<script>
-			document.getElementById("main-menu-toggle").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-			document.getElementById("main-menu-close").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
-		<script>
-		    $(document).foundation();
-		</script>
+		{% include footer-js.html %}
 	</body>
 </html>

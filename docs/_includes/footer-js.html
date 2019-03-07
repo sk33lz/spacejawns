@@ -29,7 +29,15 @@
 			        });
 			    });
 			</script>
-		{% endif %}
-		<script>
-		    $(document).foundation();
-		</script>
+			{% endif %}
+			<script>
+				document.getElementById("main-menu-toggle").onclick = function () {
+					document.body.classList.toggle("nav-open");
+					return false;
+				};
+				document.getElementById("main-menu-close").onclick = function () {
+					document.body.classList.toggle("nav-open");
+					return false;
+				};
+				$(document).foundation();
+			</script>
