@@ -1,0 +1,57 @@
+---
+layout: page
+---
+
+    <script src="/js/JSON-to-Table.min.1.0.0.js"></script>
+    <style>
+        #top-100 {
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+        #top-100 td, #top-100 th {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+
+        #top-100 tr:nth-child(even){background-color: #f2f2f2;}
+
+        #top-100 tr:hover {background-color: #ddd;}
+
+        #top-100 th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #4CAF50;
+          color: white;
+          font-weight: normal;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Use a .json file.
+            $.getJSON("http://localhost:4001/api/v1/data/top-100.json", function (data) {
+            // Use a JSON formatted URL.
+            //$.getJSON("http://localhost:4001/api/v1/top-100", function (data) {
+                for (var i = 0; i < data.response.length; i++) {
+                    var tr = $('<tr/>');
+                    $(tr).append("<td>" + data.response[i].userId + "</td>");
+                    $(tr).append("<td>" + data.response[i].high_score + "</td>");
+                    $(tr).append("<td>" + data.response[i].score_android + "</td>");
+                    $(tr).append("<td>" + data.response[i].score_standalone + "</td>");
+                    $(tr).append("<td>" + data.response[i].score_mac + "</td>");
+                    $(tr).append("<td>" + data.response[i].score_pc + "</td>");
+                    $(tr).append("<td>" + data.response[i].asteroids + "</td>");
+                    $(tr).append("<td>" + data.response[i].enemies + "</td>");
+                    $(tr).append("<td>" + data.response[i].turrets + "</td>");
+                    $(tr).append("<td>" + data.response[i].bonsues + "</td>");
+                    $(tr).append("<td>" + data.response[i].powerups + "</td>");
+                    $(tr).append("<td>" + data.response[i].top_level + "</td>");
+                    $(tr).append("<td>" + data.response[i].deaths + "</td>");
+                    $(tr).append("<td>" + data.response[i].time_played + "</td>");
+                    $('.high-score').append(tr);
+                }
+            });
+        });
+    </script>
+{{ content }}
