@@ -1,6 +1,8 @@
 # Space Jawns
 Space Jawns is a Unity3D game I am developing in C#. I will be open sourcing much of the underlying C# code that runs the game in an effort to help other aspiring video game developers to learn ways to build video game logic. I work with open source code and write documentation for a living, so it just feels right to share some code and document how to write Unity games in C# for this project.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3bff98b-092c-4112-9764-6ebd40c2a177/deploy-status)](https://app.netlify.com/sites/spacejawns/deploys)
+
 ## About This Repo
 This repo contains both the open source tools and documentation I have written for Unity3D game development in relation to the Space Jawns game series, as well as the actual Space Jawns website.
 
