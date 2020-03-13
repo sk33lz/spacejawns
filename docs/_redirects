@@ -1,35 +1,35 @@
 # Redirects from what the browser requests to what we serve
-/about                       /game
-/about/how-play              /game#how-to-play
-/about/changelog             /game/changelog
-/about/controls              /game#controls
-/about/credits               /game/credits
+/about                       /game 301!
+/about/how-play              /game#how-to-play 301!
+/about/changelog             /game/changelog 301!
+/about/controls              /game#controls 301!
+/about/credits               /game/credits 301!
 
-/downloads                   /download
-/downloads/previous-releases /game/changelog
+/downloads                   /download 301!
+/downloads/previous-releases /game/changelog 301!
 
-/player-search               /top-100
+/player-search               /top-100 301!
 
-/media/screenshots           /media#screenshots
-/media/videos                /media#videos
+/media/screenshots           /media#screenshots 301!
+/media/videos                /media#videos 301!
 
-/forum                       /support
+/forum                       /support 301!
 
 # Posts
-/space-jawns-v206-alpha-available                         /news/space-jawns-v206-alpha-available
-/news/1432779098/space-jawns-v206-alpha-available         /news/space-jawns-v206-alpha-available
-/news/april-8-2015-308pm/space-jawns-v207-alpha-available /news/space-jawns-v207-alpha-available
-/news/1432779090/space-jawns-v207-alpha-available         /news/space-jawns-v207-alpha-available
-/news/may-27-2015-1009pm/space-jawns-v208-alpha-available /news/space-jawns-v208-alpha-available
-/news/1432779080/space-jawns-v208-alpha-available         /news/space-jawns-v208-alpha-available
-/news/1441087960/space-jawns-v210-alpha-available         /news/space-jawns-v210-alpha-available
-/news/1442905989/space-jawns-v211-alpha-available         /news/space-jawns-v211-alpha-available
-/news/1443345165/space-jawns-javascript-c-conversion      /news/space-jawns-javascript-c-conversion
-/news/1444893604/space-jawns-v240-alpha-available         /news/space-jawns-v240-alpha-available
-/news/1453067120/space-jawns-v241-alpha-available         /news/space-jawns-v241-alpha-available
-/news/1473905686/space-jawns-v250-alpha-available         /news/space-jawns-v250-alpha-available
+/space-jawns-v206-alpha-available                         /news/space-jawns-v206-alpha-available 301!
+/news/1432779098/space-jawns-v206-alpha-available         /news/space-jawns-v206-alpha-available 301!
+/news/april-8-2015-308pm/space-jawns-v207-alpha-available /news/space-jawns-v207-alpha-available 301!
+/news/1432779090/space-jawns-v207-alpha-available         /news/space-jawns-v207-alpha-available 301!
+/news/may-27-2015-1009pm/space-jawns-v208-alpha-available /news/space-jawns-v208-alpha-available 301!
+/news/1432779080/space-jawns-v208-alpha-available         /news/space-jawns-v208-alpha-available 301!
+/news/1441087960/space-jawns-v210-alpha-available         /news/space-jawns-v210-alpha-available 301!
+/news/1442905989/space-jawns-v211-alpha-available         /news/space-jawns-v211-alpha-available 301!
+/news/1443345165/space-jawns-javascript-c-conversion      /news/space-jawns-javascript-c-conversion 301!
+/news/1444893604/space-jawns-v240-alpha-available         /news/space-jawns-v240-alpha-available 301!
+/news/1453067120/space-jawns-v241-alpha-available         /news/space-jawns-v241-alpha-available 301!
+/news/1473905686/space-jawns-v250-alpha-available         /news/space-jawns-v250-alpha-available 301!
 
 #Downloads
-/download/win64                                           https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1
-/download/win32                                           https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1
-/download/mac                                             https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1
+/download/win64                                           https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1 301!
+/download/win32                                           https://www.dropbox.com/s/39q9ehud4im6tnv/Space-Jawns-2.6.1-Alpha-Win32.exe?dl=1 301!
+/download/mac                                             https://www.dropbox.com/s/x5muyy79zsfeeo5/Space-Jawns-2.6.1-Alpha-Win64.exe?dl=1 301!
