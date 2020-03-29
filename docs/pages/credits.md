@@ -40,7 +40,7 @@ Credits menu background music, Sky Game Menu.mp3
 - [MTPaint](http://mtpaint.sourceforge.net/)
 
 ## Testing Team Credits
-- Henrik GotfredSen - Android and Windows testing.
+- Henrik Gotfredsen - Android and Windows testing.
 - Matthew Adolph - Windows testing.
 - Michael Hale - Windows testing.
 - Nick Lewis - Mac and Windows testing.
